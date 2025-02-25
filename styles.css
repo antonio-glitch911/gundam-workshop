@@ -2,3 +2,9 @@ body{
     background-color: rgb(62, 196, 196);
 
 }
+img {
+    Border-radius: 99px;
+}
+img:hover {
+    transform: scaleX(-1);
+  }
