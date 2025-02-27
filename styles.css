@@ -1,10 +1,17 @@
 body{
     background-color: rgb(62, 196, 196);
-
 }
 img {
     Border-radius: 99px;
 }
 img:hover {
     transform: scaleX(-1);
+  }
+
+  .container {
+    flex-direction: column-reverse;
+  } 
+img {
+    width: 500px;
+    height: 500px;
   }
