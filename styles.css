@@ -2,7 +2,7 @@ body{
     background-color: rgb(62, 196, 196);
 }
 img {
-    Border-radius: 99px;
+    Border-radius: 0px;
 }
 img:hover {
     transform: scaleX(-1);
@@ -11,7 +11,9 @@ img:hover {
   .container {
     flex-direction: column-reverse;
   } 
-img {
-    width: 500px;
-    height: 500px;
+
+  .instructions-container {
+    display: flex;
+    flex-direction: row;
+    border: solid 3px black;
   }
