@@ -15,7 +15,7 @@ img:hover {
   .instructions-container {
     display: flex;
     flex-direction: row;
-    border: solid 3px black;
+    border: solid 3px rgb(62, 196, 196);
   }
   div.sticky {
     position: sticky;
