@@ -1,4 +1,6 @@
+
 * {box-sizing:border-box}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 500px;
@@ -85,3 +87,20 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+
+body {
+    background-color: rgb(62, 196, 196);
+}
+
+
+img {
+    Border-radius: 0px;
+}
+
+img:hover {
+    transform: scaleX(-1);
+}
+
+img {
+    padding: 15px;
+  }
